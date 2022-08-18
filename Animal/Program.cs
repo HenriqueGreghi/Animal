@@ -8,21 +8,20 @@ namespace Animal
         {
 
 
-            string vertebrado;
-            string invertebrado;
+            
 
             Console.WriteLine("Qual tipo de aminal você deseja?");
-            Console.WriteLine("Vertebrado  ");
-            Console.WriteLine("Imvertebrado");
-            string resposta = Console.ReadLine().ToLower();
+            Console.WriteLine("Vertebrado ou Imvertebrado");
+            
+            string resposta = Console.ReadLine();
 
 
-            if (resposta == vertebrado)
+            if (resposta == "Vertebrado")
             {
                 Vertebrado vert = new Vertebrado();
                 vert.Escolha();
             }
-            else if (resposta == invertebrado)
+            else if (resposta == "Invertebrado")
             {
                 Invertebrado invert = new Invertebrado();
                 invert.Escolha();

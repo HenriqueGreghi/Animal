@@ -33,11 +33,11 @@ namespace Animal
             Console.WriteLine("Mamifero ou Ave?");
             string Escolher = Console.ReadLine();
 
-            if (Escolher == ave)
+            if (Escolher == "Ave")
             {
                 Ave();
             }
-            else if (Escolher == mamifero)
+            else if (Escolher == "Mamifero")
             {
                 Mamifero();
             }

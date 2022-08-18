@@ -29,15 +29,15 @@ namespace Animal
         }
         public void Escolha()
         {
-            Console.WriteLine("Anelideo = 1");
-            Console.WriteLine("Inseto = 2");
+            Console.WriteLine("Anelideo ou Inseto ");
+         
 
-            int resposta = int.Parse(Console.ReadLine());
-            if (resposta == 1 )
+            string resposta = Console.ReadLine();
+            if (resposta == "Inseto" )
             {
                 Anelideo();
             }
-            else if (resposta == 2)
+            else if (resposta == "Anelideo")
             {
                 Inseto();
             }
@@ -50,11 +50,11 @@ namespace Animal
 
             string resp = Console.ReadLine();
 
-            if (resp == Hematofago)
+            if (resp == "Hematofago")
             {
                 Console.WriteLine("Pulga");
             }
-            else if (resp == Herbivoro)
+            else if (resp == "Herbivoro")
             {
 
                 Console.WriteLine("Lagarta");
@@ -66,11 +66,11 @@ namespace Animal
 
             string resp = Console.ReadLine();
 
-            if (resp == Hematofago)
+            if (resp == "Hematofago")
             {
                 Console.WriteLine("Sanguessuga");
             }
-            else if (resp == Onivoro)
+            else if (resp == "Onivoro")
             {
 
                 Console.WriteLine("Minhoca");
