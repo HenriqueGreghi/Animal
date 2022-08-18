@@ -10,10 +10,8 @@ namespace Animal
         public string Carnivoro;
         public string Onivoro;
         public string Herbivoro;
-        public string Escolher;
-        public string Passaro;
-        private string ave;
-        private string mamifero;
+       
+       
         public  Vertebrado(string animal, string carnivoro, string onivoro, string herbivoro)
         {
             Animal = animal;

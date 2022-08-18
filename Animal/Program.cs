@@ -5,10 +5,7 @@ namespace Animal
     class Program
     {
         static void Main(string[] args)
-        {
-
-
-            
+        {       
 
             Console.WriteLine("Qual tipo de aminal você deseja?");
             Console.WriteLine("Vertebrado ou Imvertebrado");
